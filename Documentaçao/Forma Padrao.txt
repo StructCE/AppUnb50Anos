@@ -1,0 +1,27 @@
+Forma Padrao
+	//para botoes e itens do xml
+	//nome destes sempre com numero no começo
+		0_nomedoxmlquepertence_descriçao
+
+	//para cada predio temos na drawable
+	//nome do predio sempre começa com letr
+	nomepredio_background //uma foto de fundo para o predio
+
+	//para cada andar
+	nomepredio_andar //uma planta geral com as partes
+		nomepredio_andar_a //a planta de cada parte
+		nomepredio_andar_b
+
+	nomepredio_foto_1 //a quantidade de fotos que quiser
+
+	para cada predio no strigs
+
+	<string-array name="nome que voce vai usar">
+        <item> nome no bd 		</item> //sem maiusculos
+        <item> titulo 			</item>
+        <item> descriçao 		</item>
+        <item> departamentos 	</item>
+        <item> reitor vigente	</item>
+        <item> numero de Fotos 	</item>
+
+        

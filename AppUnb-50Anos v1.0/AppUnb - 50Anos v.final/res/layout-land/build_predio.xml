@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/build_predio"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/foto_bce" >
+
+    <RelativeLayout
+        android1:id="@+id/relativeLayout1"
+        android1:layout_width="fill_parent"
+        android1:layout_height="fill_parent" >
+
+        <Button
+            android1:id="@+id/blocos2"
+            android1:layout_width="120dp"
+            android1:layout_height="40dp"
+            android1:background="@drawable/botao_titulo"
+            android1:text="Blocos"
+            android1:visibility="gone" />
+
+        <Button
+            android1:id="@+id/blocos"
+            android1:layout_width="120dp"
+            android1:layout_height="40dp"
+            android1:layout_alignParentLeft="true"
+            android1:layout_alignParentTop="true"
+            android1:background="@drawable/botao_titulo"
+            android1:text="Blocos" />
+
+        <RelativeLayout
+            android1:id="@+id/grupo_blocos"
+            android1:layout_width="wrap_content"
+            android1:layout_height="fill_parent"
+            android1:layout_alignRight="@+id/blocos2"
+            android1:layout_below="@+id/blocos2"
+            android1:visibility="gone" >
+
+            <Button
+                android1:id="@+id/BotaoA"
+                android1:layout_width="120dp"
+                android1:layout_height="40dp"
+                android1:background="@drawable/botao_andar"
+                android1:text="A" />
+
+            <Button
+                android1:id="@+id/BotaoB"
+                android1:layout_width="120dp"
+                android1:layout_height="40dp"
+                android1:layout_alignParentLeft="true"
+                android1:layout_below="@+id/BotaoA"
+                android1:background="@drawable/botao_andar"
+                android1:text="B" />
+
+            <Button
+                android1:id="@+id/BotaoC"
+                android1:layout_width="120dp"
+                android1:layout_height="40dp"
+                android1:layout_alignParentLeft="true"
+                android1:layout_below="@+id/BotaoB"
+                android1:background="@drawable/botao_andar"
+                android1:text="C" />
+
+            <Button
+                android1:id="@+id/BotaoD"
+                android1:layout_width="120dp"
+                android1:layout_height="40dp"
+                android1:layout_alignParentLeft="true"
+                android1:layout_below="@+id/BotaoC"
+                android1:background="@drawable/botao_andar"
+                android1:text="D" />
+
+            <Button
+                android1:id="@+id/BotaoE"
+                android1:layout_width="120dp"
+                android1:layout_height="40dp"
+                android1:layout_alignParentLeft="true"
+                android1:layout_below="@+id/BotaoD"
+                android1:background="@drawable/botao_andar"
+                android1:text="E" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    
+</FrameLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String basicas do aplicativo -->
+
+    <string name="app_name">Guia do Mochileiro - UNB</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash_screen">GMUnB</string>
+    <string name="title_activity_mainmenu">Main Menu</string>
+    <string name="title_activity_cred">Creditos</string>
+    <string name="title_activity_conq">Conquistas</string>
+    <string name="title_activity_slipt_screen">O guia do mochileiro da UnB</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <!-- Strings do icc sul -->
+    
+
+    <string-array name="ICC_SUL">
+        <item> INSTITUTO CENTRAL DE CIÊNCIAS</item>
+        <item> O Instituto Central de Ciências (ICC) é o principal prédio acadêmico da Universidade de Brasília. Desenhado por Oscar Niemeyer, também é conhecido como Minhocão, devido à sua extensão de aproximadamente 800 metros de comprimento, dividido em Alas Norte, Centro e Sul. A construção durou cerca de oito anos. Iniciou-se em 1963 e ficou pronta em 1971. O prédio começou a ser ocupado quando a estrutura ficou pronta, inicialmente pela psicologia e pela biologia. Como a universidade não tinha recursos para fazer outros edifícios, resolveu-se colocar no minhocão as áreas que precisavam de mais espaço. </item>
+        <item> Reitor Vigente: Caio Bamin Dias </item>
+        <item> Departamentos:\n
+					(DAN) Departamento de Antropologia\n
+					(CIC) Departamento de Ciência da Computação\n
+					(CIS) Departamento de Ciências Sociais\n
+					(EST) Departamento de Estatística\n
+					(FIL) Departamento de Filosofia\n
+					(GEA) Departamento de Geografia\n
+					(HIS) Departamento de História\n
+					(LET) Departamento de Línguas Estrangeiras e Tradução\n
+					(LIP) Departamento de Lingüística, Português\n
+					(MAT) Departamento de Matemática.\n
+					(PPB) Departamento de Processos Psicologicos Básicos\n
+					(PRO) Departamento de Projetos Expressão e Representação\n
+					(PED) Departamento de Psic.Escolar e do Desenvolvimento\n
+					(PCL) Departamento de Psicologia Clínica\n
+					(PST) Departamento de Psicologia Social e do Trabalho\n
+					(SER) Departamento de Serviço Social\n
+					(SOL) Departamento de Sociologia\n
+					(TEC) Departamento de Tecnologia em Arquit. e Urbanismo\n
+					(TEL) Departamento de Teoria Literária e Literatura\n
+					(THAU) Depto.de Teoria e Hist.em Arquitetura e Urbanismo\n
+					(FACE) Faculd. de Economia, Administração e Contabilidade\n
+					(FAV) Faculdade de Agronomia e Medicina Veterinária\n
+					(DAP) Departamento de Audiovisuais e Publicidade\n
+					(JOR) Departamento de Jornalismo\n
+					(IFD) Instituto de Física\n
+					(IGD) Instituto de Geociências\n
+					(ECO) Departamento de Economia\n		</item>
+    </string-array>
+    
+    <!-- Strings do icc sul -->
+    
+    <string-array name="ICC_CENTRO">
+        <item> INSTITUTO CENTRAL DE CIÊNCIAS</item>
+        <item> O Instituto Central de Ciências (ICC) é o principal prédio acadêmico da Universidade de Brasília. Desenhado por Oscar Niemeyer, também é conhecido como Minhocão, devido à sua extensão de aproximadamente 800 metros de comprimento, dividido em Alas Norte, Centro e Sul. A construção durou cerca de oito anos. Iniciou-se em 1963 e ficou pronta em 1971. O prédio começou a ser ocupado quando a estrutura ficou pronta, inicialmente pela psicologia e pela biologia. Como a universidade não tinha recursos para fazer outros edifícios, resolveu-se colocar no minhocão as áreas que precisavam de mais espaço. </item>
+        <item> Reitor Vigente: Caio Bamin Dias </item>
+        <item> Departamentos:\n
+(DAN) Departamento de Antropologia\n
+(CIC) Departamento de Ciência da Computação\n
+(CIS) Departamento de Ciências Sociais\n
+(EST) Departamento de Estatística\n
+(FIL) Departamento de Filosofia\n
+(GEA) Departamento de Geografia\n
+(HIS) Departamento de História\n
+(LET) Departamento de Línguas Estrangeiras e Tradução\n
+(LIP) Departamento de Lingüística, Português\n
+(MAT) Departamento de Matemática.\n
+(PPB) Departamento de Processos Psicologicos Básicos\n
+(PRO) Departamento de Projetos Expressão e Representação\n
+(PED) Departamento de Psic.Escolar e do Desenvolvimento\n
+(PCL) Departamento de Psicologia Clínica\n
+(PST) Departamento de Psicologia Social e do Trabalho\n
+(SER) Departamento de Serviço Social\n
+(SOL) Departamento de Sociologia\n
+(TEC) Departamento de Tecnologia em Arquit. e Urbanismo\n
+(TEL) Departamento de Teoria Literária e Literatura\n
+(THAU) Depto.de Teoria e Hist.em Arquitetura e Urbanismo\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n
+(FAV) Faculdade de Agronomia e Medicina Veterinária\n
+(DAP) Departamento de Audiovisuais e Publicidade\n
+(JOR) Departamento de Jornalismo\n
+(IFD) Instituto de Física\n
+(IGD) Instituto de Geociências\n
+(ECO) Departamento de Economia\n</item>
+    </string-array>
+    <string-array name="ICC_NORTE">
+        <item> INSTITUTO CENTRAL DE CIÊNCIAS</item>
+        <item> O Instituto Central de Ciências (ICC) é o principal prédio acadêmico da Universidade de Brasília. Desenhado por Oscar Niemeyer, também é conhecido como Minhocão, devido à sua extensão de aproximadamente 800 metros de comprimento, dividido em Alas Norte, Centro e Sul. A construção durou cerca de oito anos. Iniciou-se em 1963 e ficou pronta em 1971. O prédio começou a ser ocupado quando a estrutura ficou pronta, inicialmente pela psicologia e pela biologia. Como a universidade não tinha recursos para fazer outros edifícios, resolveu-se colocar no minhocão as áreas que precisavam de mais espaço. </item>
+        <item> Reitor Vigente: Caio Bamin Dias </item>
+        <item> Departamentos:\n
+(DAN) Departamento de Antropologia\n
+(CIC) Departamento de Ciência da Computação\n
+(CIS) Departamento de Ciências Sociais\n
+(EST) Departamento de Estatística\n
+(FIL) Departamento de Filosofia\n
+(GEA) Departamento de Geografia\n
+(HIS) Departamento de História\n
+(LET) Departamento de Línguas Estrangeiras e Tradução\n
+(LIP) Departamento de Lingüística, Português\n
+(MAT) Departamento de Matemática.\n
+(PPB) Departamento de Processos Psicologicos Básicos\n
+(PRO) Departamento de Projetos Expressão e Representação\n
+(PED) Departamento de Psic.Escolar e do Desenvolvimento\n
+(PCL) Departamento de Psicologia Clínica\n
+(PST) Departamento de Psicologia Social e do Trabalho\n
+(SER) Departamento de Serviço Social\n
+(SOL) Departamento de Sociologia\n
+(TEC) Departamento de Tecnologia em Arquit. e Urbanismo\n
+(TEL) Departamento de Teoria Literária e Literatura\n
+(THAU) Depto.de Teoria e Hist.em Arquitetura e Urbanismo\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n
+(FAV) Faculdade de Agronomia e Medicina Veterinária\n
+(DAP) Departamento de Audiovisuais e Publicidade\n
+(JOR) Departamento de Jornalismo\n
+(IFD) Instituto de Física\n
+(IGD) Instituto de Geociências\n
+(ECO) Departamento de Economia\n</item>
+    </string-array>
+    <string-array name="FA">
+        <item> FACULDADE DE ESTUDOS SOCIAIS APLICADOS FACULDADE DE DIREITO</item>
+        <item> A Faculdade de Estudos Sociais e Aplicados - FA , projetada pelo arquiteto Matheus Gorovitz para abrigar as Faculdades de Direito, Ciência Política e Relações Internacionais, só veio a ser inaugurada no dia 22 de abril de 1982. Anteriormente, o curso de Direito era ministrado nos Institutos Centrais, tendo pertencido, primeiramente, à Faculdade de Ciências Jurídicas e Sociais (FCJS), sendo, em 1970, agregado à Faculdade de Ciências Sociais Aplicadas, a qual abrangia, ainda, os cursos de Biblioteconomia e Informação Científica e de Comunicação. </item>
+        <item> Reitor Vigente: José Carlos Azevedo </item>
+        <item> Departamentos:\n
+(CCA) Depto de Ciências Contábeis e Atuariais\n
+(FDD) Faculdade de Direito\n
+(IPOL) Instituto de Ciência Política\n
+(IREL) Instituto de Relações Internacionais\n
+(FACE) Faculd. de Economia, Administração e Contabilidade\n</item>
+    </string-array>
+    <string-array name="FE">
+        <item>FACULDADE DE EDUCAÇÃO</item>
+        <item>O projeto original da Faculdade de Educação foi concebido sob orientação do educador Anísio Teixeira e então Reitor da UnB, em 1963. A FE que existia no Plano Orientador da UnB não se implantou de imediato em conseqüência da intervenção militar na Universidade de Brasília (ocupada no dia nove de abril de 1964). A FE somente começou a ser efetivamente implantada em 1966.</item>
+        <item>Reitor Vigente: Laerte Ramos</item>
+        <item>Departamentos:\n
+(FE) Faculdade de Educação\n
+(TEF) Departamento de Teoria e Fundamentos\n
+(MTC) Departamento de Métodos e Técnicas\n
+(PAD) Departamento de Planejamento e Administração\n</item>
+    </string-array>
+    <string-array name="FMFS">
+        <item>FACULDADE DE MEDICINA E SAÚDE</item>
+        <item>Informações Indisponíveis</item>
+        <item>Reitor Vigente:</item>
+        <item>Departamentos:\n
+(ENF) Departamento de Enfermagem\n
+(DSC) Departamento de Saúde Coletiva\n
+(NUT) Departamento de Nutrição\n
+(ODT) Departamento de Odontologia\n
+(FAR) Departamento de Farmácia\n
+(DSC) Departamento de Saúde Coletiva\n
+(FMD) Faculdade de Medicina\n</item>
+    </string-array>
+    <string-array name="IB">
+        <item>INSTITUTO DE CIÊNCIAS BIOLÓGICAS</item>
+        <item>A história da biologia na UnB foi marcadamente influenciada pelos acontecimentos políticos a partir da década de 1960. A estrutura introduzida no início da década de 1970 constituiu a base para o atual formato da estrutura do IB. Os esforços dos professores que atuaram nos 35 anos de existência da biologia da UnB, adicionados aos que atuam no presente, chegando aos 50 anos de sua implantação, são elementos importantes para se vislumbrar uma relevante contribuição científica da biologia da UnB no século 21.</item>
+        <item>Reitor Vigente: Amadeu Cury</item>
+        <item>Departamentos:\n
+(CEL) Departamento de Biologia Celular\n
+(BOT) Departamento de Botânica\n
+(FIT) Departamento de Fitopatologia\n
+(GEM) Departamento de Genética e Morfologia\n
+(ECL) Departamento de Ecologia\n
+(CFS) Departamento de Ciências Fisiológicas\n
+(ZOO) Departamento de Zoologia\n</item>
+    </string-array>
+    <string-array name="IQ">
+        <item>INSTITUTO DE QUÍMICA</item>
+        <item>No primeiro semestre letivo de 1999, foi criado o Instituto de Química, separando-se assim do Instituto de Ciências Exatas. A organização acadêmica da nova Unidade é de seis grandes áreas: a Química Analítica, Química Inorgânica, Química Orgânica, Ensino de Química, Físico-Química e Tecnologia. </item>
+        <item>Reitor Vigente: Lauro Morhy</item>
+        <item>Departamentos:\n
+(IQD) Instituto de Química\n</item>
+    </string-array>
+    <string-array name="PAT">
+        <item>PAVILHÃO ANÍSIO TEIXEIRA</item>
+        <item>Informações Indisponíveis</item>
+        <item>Reitor Vigente: Informação Indisponível</item>
+        <item>Departamentos:\n
+(FACE)	Faculd. de Economia, Administração e Contabilidade\n</item>
+    </string-array>
+    <string-array name="PJC">
+        <item>PAVILHÃO JOÃO CALMON</item>
+        <item>Informações Indisponíveis</item>
+        <item>Reitor Vigente: Informação Indisponível</item>
+        <item>Departamentos:\n
+(FACE)	Faculd. de Economia, Administração e Contabilidade\n</item>
+    </string-array>
+    <string-array name="PMU1">
+        <item>PAVILHÃO MULTIUSO I</item>
+        <item>Informações Indisponíveis</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="PMU2">
+        <item>PAVILHÃO MULTIUSO II</item>
+        <item>Informações Indisponíveis</item>
+        <item>Reitor Vigente: Informação Indisponível</item>
+        <item>Departamentos:\n Informação Indisponível\n</item>
+    </string-array>
+    <string-array name="RU">
+        <item>RESTAURANTE UNIVERSITÁRIO</item>
+        <item>O Restaurante Universitário - RU iniciou suas atividades no ano de 1975, para atender a Comunidade Universitária, sendo seu principal objetivo prestar atendimento em alimentação através da produção e distribuição de refeições balanceadas e de qualidade a baixo custo a fim de garantir a permanência e diplomação dos estudantes universitários.
+O horário de atendimento para o desjejum é de 07 às 09 horas para cerca de 200 usuários, o  almoço é de 11 às 14 horas, onde em média são servidas 4000 refeições e no jantar serve-se em média 1000 refeições de 17 às 19 horas, de segunda a sábado.</item>
+        <item>Reitor Vigente: Amadeu Cury</item>
+        <item>Autor do Projeto: José Galbinski, com a colaboracão de Antoni Carlos Moraes de Castro</item>
+    </string-array>
+    <string-array name="BCE">
+        <item>BIBLIOTECA CENTRAL</item>
+        <item>A Biblioteca Central da Universidade de Brasília foi criada, em 1962, opondo-se à tradição inadequada de múltiplas bibliotecas dispersas nas várias unidades de ensino das universidades – um sistema oneroso que gerava duplicações desnecessárias de acervo e de processos técnicos e administrativos. Desde então, percorreu uma trajetória ímpar de mudanças, recuos e avanços.</item>
+        <item>Reitor Vigente: Darcy Ribeiro</item>
+        <item>Departamentos:\n
+(CID) Departamento de Ciência da Inform. e Documentação\n</item>
+    </string-array>
+    <string-array name="FT">
+        <item>FACULDADE DE TECNOLOGIA</item>
+        <item>A Faculdade de Tecnologia iniciou as suas atividades em 1967, com os curso de engenharia civil, mecânca e elétrica. O Departamento de Engenharia Agronômica esteve vinculado à FT até 1997, quando se transoformou em Faculdade de Agronomia e Medicina Veterinária. Em 1966 foi criado, o Departamento de Engenharia Florestal, cujos alunos também utilizam a estrutura da FAL (Fazenda da Água Limpa).
+A FT conta também com a infraestrutura dos três prédios de Serviços Gerais (SGs 9, 11, 12), projeto original de Oscar Niemeyer além de dois grandes laboratórios (Hidráulica e Mecanica), construídos ao seu lado. </item>
+        <item>Reitor Vigente: Laerte Ramos</item>
+        <item>Departamentos:\n
+(ENC) Departamento de Engenharia Civil e Ambiental\n
+(ENE) Departamento de Engenharia Elétrica\n
+(EFL) Departamento de Engenharia Florestal\n
+(ENM) Departamento de Engenharia Mecânica\n</item>
+    </string-array>
+    <string-array name="REITORIA">
+        <item>Reitoria</item>
+        <item>Informações Indisponíveis</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="PAV1">
+        <item>Térreo</item>
+    </string-array>
+    <string-array name="PAV2">
+        <item>Térreo</item>
+        <item>1º Andar</item>
+    </string-array>
+    <string-array name="PAV3">
+        <item>Subsolo</item>
+        <item>Térreo</item>
+        <item>1º Andar</item>
+    </string-array>
+    <string-array name="PAV4">
+        <item>Subsolo</item>
+        <item>Térreo</item>
+        <item>1º Andar</item>
+        <item>2º Andar</item>
+    </string-array>
+    <string-array name="PAV5">
+        <item>Subsolo</item>
+        <item>Térreo</item>
+        <item>1º Andar</item>
+        <item>2º Andar</item>
+        <item>3º Andar</item>
+    </string-array>
+
+</resources>

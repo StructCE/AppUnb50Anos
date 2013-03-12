@@ -1,0 +1,66 @@
+Fezer bo aplicativo
+	//parte 1
+		--Coloar os xml das animaçoes
+		--colacar o xml do main menu
+		--Terminar De passar o Necessario
+
+	//parte 2
+		--fazer a nova classe  main menu(activity)
+		(nao)nela estara tos os xmls tanto do menu principal como o de creditos
+		--colocar o xml de creditos
+		
+	//parte 3
+
+	//fazer a classe do BD
+		--verifify
+		--	verifica se um table existe e retorna true se existir
+		--create
+		--	cria um nova tabela
+		--add
+		--	adiciona a nova tabela
+		--get 
+		--	pega um linha da tabela
+		--set
+		--	diz um valor para o campo
+			
+	//parte 4
+		--fazer uma nova tela para predios
+			
+		--	fazer o xml
+		--fazer a classe dos ipos basicos
+		
+
+	//parte 5
+	  	--fazer um classe de montagem de predios com os tipos basicos
+	  	--fazer a classse geral que gerencia tudo
+	
+	//parte 6
+		fazer o bd Conquistas
+		fazer a classe de conquistas
+		fazer o xml das conquistas
+
+	//parte 7
+		fazer as minhaturas dos predios
+		coseguir a lupa
+		fazer botoes simples para os pavimentos
+		terminar o classe appbody
+
+	//parte 8
+		//clicavel ou nao es a questao
+		fazer uma classe para os predios
+		fazer uma xml para os predios
+		
+		fazer uma classe para cada planta
+		fazer uma xml para cada planta
+
+		fazer uma classe para fotos
+		fazer uma xml para fotos
+
+	//Parte extra
+		fazer o novo mapa geral da UNB
+		Colocar o xml do splaeshScrenn -  com o gif
+		Colocar gif no guia dos mochileiros
+		fazer os desenhos dos pavimentos(depois)
+
+
+
