@@ -1,6 +1,0 @@
-<resources>
-
-    <style name="AppTheme" parent="android:Theme.NoTitleBar.Fullscreen" />
-    <style name="SplashTheme" parent="android:Theme.NoTitleBar.Fullscreen"></style>
-
-</resources>
