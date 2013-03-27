@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gm.unb"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+    
+    <!-- Screen Specifications -->
+    
+    <supports-screens 
+    	android:resizeable="true"
+    	android:anyDensity="true" />    
+ 
+    <!-- Application Start -->
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SplashTheme" >
+    <!-- Activity: Splash Screen -->
+        
+        <activity
+            android:theme="@style/SplashTheme"
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <!-- Activity: Main Menu -->
+        
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_menu" 
+           android:screenOrientation="landscape" >
+        </activity>
+        
+        
+        
+        <!-- Activity: Créditos -->
+        
+        <activity
+            android:name=".Creditos"
+            android:label="@string/title_activity_cred"
+            android:screenOrientation="landscape"  >
+        </activity>
+        
+        
+        
+        <!-- Activity: Conquistas -->
+        
+        <activity
+            android:name=".Conquistas"
+            android:label="@string/title_activity_conq"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        
+        <activity android:name="MainMap" android:screenOrientation="landscape"></activity>
+        <activity android:name="EspecificMap" android:screenOrientation="landscape"></activity>
+        <activity android:name="Saiba_Mais" android:screenOrientation="landscape"></activity>
+        <activity android:name="BD"></activity>
+        <activity android:name="Indice" android:screenOrientation="landscape"></activity>
+        <activity android:name="Build_Options"  android:screenOrientation="landscape"></activity> 
+        <activity android:name="Build_Predio"  android:screenOrientation="landscape"></activity>
+        <activity android:name="RU" android:screenOrientation="landscape"  ></activity>
+        <activity android:name="Busca_Dep" android:screenOrientation="landscape" ></activity>
+
+    </application>
+
+</manifest>

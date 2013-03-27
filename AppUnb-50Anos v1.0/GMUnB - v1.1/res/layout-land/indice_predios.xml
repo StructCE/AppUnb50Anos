@@ -1,0 +1,282 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/indice_predios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <LinearLayout
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent"
+        android1:orientation="vertical" >
+
+        <LinearLayout
+            android1:layout_width="fill_parent"
+            android1:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/ICC_SUL"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="ICC - SUL" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/ICC_CENTRO"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="ICC - CENTRO" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/ICC_NORTE"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="ICC - NORTE" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="fill_parent"
+            android1:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/FA"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="FA" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/FE"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="FE" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/FMFS"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="FMFS" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="fill_parent"
+            android1:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/IB"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="IB" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/IQ"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="IQ" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/PAT"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="PAT" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="fill_parent"
+            android1:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/PJC"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="PJC" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/PMU1"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="PMU I" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/PMU2"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="PMU II" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="fill_parent"
+            android1:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/BCE"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="BCE" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/FT"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="FT" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android1:layout_width="match_parent"
+                android1:layout_height="match_parent"
+                android1:layout_weight="1" >
+
+                <Button
+                    android1:id="@+id/REITORIA"
+                    android1:layout_width="fill_parent"
+                    android1:layout_height="70dp"
+                    android1:layout_alignParentLeft="true"
+                    android1:layout_alignParentTop="true"
+                    android1:background="@drawable/botao_andar"
+                    android1:text="REITORIA" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    

@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/menu_bt_mapa_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/menu_background" />
+
+    <ImageView
+        android:id="@+id/menu_conq_marvin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/menu_marvin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12" >
+
+        <ImageView
+            android:id="@+id/menu_conq_title"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="24"
+            android:scaleType="fitStart"
+            android:src="@drawable/menu_conquistas" />
+
+        <Button
+            android:id="@+id/achiviment1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_weight="1"
+            android:text="RU" />
+
+        <Button
+            android:id="@+id/achiviment2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_weight="1"
+            android:text="Busca por departamentos" />
+
+    </LinearLayout>
+
+</FrameLayout>

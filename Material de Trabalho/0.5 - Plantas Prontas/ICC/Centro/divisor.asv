@@ -1,0 +1,33 @@
+clear all
+close all
+
+nome = 'ICC_CENTRO_SS';
+bSize = 512;
+
+
+imgNome = strcat(nome, '.png');
+imagem = imread(imgNome);
+
+[h, l] = size(imagem);
+
+i = ceil(h/bSize);
+j = ceil(l/bSize);
+
+h = i*bSize;
+l = j*bSize;
+
+imagem = imresize(imagem, [h, l]);
+
+for p = 1:i
+    for k = 1: j
+        for alt = 1 : bSize
+            for lar = 1 : bSize
+            end
+        end
+        
+
+
+
+
+
+
