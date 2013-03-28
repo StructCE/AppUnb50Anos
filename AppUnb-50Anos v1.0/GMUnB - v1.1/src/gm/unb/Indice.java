@@ -32,7 +32,6 @@ public class Indice extends Activity {
              */
             
             //ICC - SUL
-            
             Button icc_sul = (Button) findViewById(R.id.ICC_SUL); 
             icc_sul.setBackgroundResource(R.drawable.bt_botoes_anim);
             icc_sul.setOnClickListener(new View.OnClickListener() {
@@ -42,11 +41,11 @@ public class Indice extends Activity {
     	        	boolean verificador;
     	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(1);
-    	        	//if(verificador==1){
-//    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-  //  	        	}
     	        	
+    	        	//terminado essa atividade
     	        	finish();
+    	   
+    	        	//passando argumentos e chamando a nova atividade
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_icc)
     	        	.putExtra("nome","ICC - SUL")
@@ -54,83 +53,93 @@ public class Indice extends Activity {
 					.putExtra("num_pavimentos", 3));
     	        }
            });    
-            //ICC - CENTRO
             
+            //ICC - CENTRO
             Button icc_centro = (Button) findViewById(R.id.ICC_CENTRO); 
             icc_centro.setBackgroundResource(R.drawable.bt_botoes_anim);
             icc_centro.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(2,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(2);
+    	        	
+    	        	//finalizando esta atividade
+    	        	finish();
+    	        	
+    	        	//passando argumentos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_icc)
     	        	.putExtra("nome","ICC - CENTRO")
     	        	.putExtra("info_predio", 2)
 					.putExtra("num_pavimentos", 3));
     	        }
-           }); 
-            //ICC - NORTE
+           });
             
+            //ICC - NORTE
             Button icc_norte = (Button) findViewById(R.id.ICC_NORTE); 
             icc_norte.setBackgroundResource(R.drawable.bt_botoes_anim);
             icc_norte.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(3,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(3);
+    	        	
+    	        	//finalizando esta atividade
+    	        	finish();
+    	        	
+    	        	//passando argumentos para a procima atividade
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_icc)
     	        	.putExtra("nome","ICC - NORTE")
     	        	.putExtra("info_predio", 3)
 					.putExtra("num_pavimentos", 3));
     	        }
-           });             
-            //FA
+           });  
             
+            //FA
             Button fa = (Button) findViewById(R.id.FA);  
             fa.setBackgroundResource(R.drawable.bt_botoes_anim);
             fa.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(4,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(10);
+
+    	        	//finalizando esta atividade
+    	        	finish();
+    	        	
+    	        	//passando para a proxima atividade
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_fa)
-    	        	//.putExtra("predio", R.drawable.planta_fe1)
     	        	.putExtra("nome","FA")
     	        	.putExtra("info_predio", 4)
 					.putExtra("num_pavimentos", 2));
     	        }
-           });                
-            //FE
+           });  
             
+            //FE
             Button fe = (Button) findViewById(R.id.FE);
             fe.setBackgroundResource(R.drawable.bt_botoes_anim);
             fe.setOnClickListener(new View.OnClickListener() {
-    	        public void onClick(View conq) {   
-    	        	finish();
+    	        public void onClick(View conq) {
+
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(5,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(12);
+    	        	
+    	        	//finalizando esta atividade
+    	        	finish();
+    	        	
+    	        	//passando argumentos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_fe)
-    	        	//.putExtra("predio", R.drawable.planta_fe1)
     	        	.putExtra("nome","FE")
     	        	.putExtra("info_predio", 5)
 					.putExtra("num_pavimentos", 4));
@@ -142,13 +151,16 @@ public class Indice extends Activity {
             fmfs.setBackgroundResource(R.drawable.bt_botoes_anim);
             fmfs.setOnClickListener(new View.OnClickListener() {  
         	        public void onClick(View conq) {   
-        	        	finish();
+        	 
         	        	//Banco de Dados
-        	        	int verificador;
-        	        	verificador = db.checkUpdateBd(6,db);
-        	        	if(verificador==1){
-        	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-        	        	}
+        	        	boolean verificador;
+        	        	DBAdapter db = new DBAdapter();
+        	        	verificador = db.visit(7);
+
+        	        	//finalizando atividade
+        	        	finish();
+        	        	
+        	        	//passando argumetos para a proxima
         	        	startActivity(new Intent(Indice.this, Build_Options.class)
         	        	.putExtra("foto_predio", R.drawable.foto_fmfs)
         	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -165,13 +177,16 @@ public class Indice extends Activity {
             ib.setBackgroundResource(R.drawable.bt_botoes_anim);
             ib.setOnClickListener(new View.OnClickListener() {  
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(7,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(6);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_ib)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -187,13 +202,16 @@ public class Indice extends Activity {
             iq.setBackgroundResource(R.drawable.bt_botoes_anim);
             iq.setOnClickListener(new View.OnClickListener() {  
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(8,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(9);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_iq)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -208,13 +226,16 @@ public class Indice extends Activity {
             pat.setBackgroundResource(R.drawable.bt_botoes_anim);
             pat.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(9,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(5);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_pat)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -229,13 +250,16 @@ public class Indice extends Activity {
             pjc.setBackgroundResource(R.drawable.bt_botoes_anim);
             pjc.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(10,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(4);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_pjc)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -250,13 +274,16 @@ public class Indice extends Activity {
             pmu1.setBackgroundResource(R.drawable.bt_botoes_anim);
             pmu1.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(11,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(8);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_pmu1)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -271,13 +298,16 @@ public class Indice extends Activity {
             pmu2.setBackgroundResource(R.drawable.bt_botoes_anim);
             pmu2.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(12,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(13);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_pmu2)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -292,13 +322,16 @@ public class Indice extends Activity {
             bce.setBackgroundResource(R.drawable.bt_botoes_anim);
             bce.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(13,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(14);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_bce)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -313,13 +346,16 @@ public class Indice extends Activity {
             ft.setBackgroundResource(R.drawable.bt_botoes_anim);
 			ft.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(14,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(11);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_ft)
     	        	//.putExtra("predio", R.drawable.planta_fe1)
@@ -333,16 +369,18 @@ public class Indice extends Activity {
             reitoria.setBackgroundResource(R.drawable.bt_botoes_anim);
 			reitoria.setOnClickListener(new View.OnClickListener() {
     	        public void onClick(View conq) {   
-    	        	finish();
+    	        	
     	        	//Banco de Dados
-    	        	int verificador;
-    	        	verificador = db.checkUpdateBd(15,db);
-    	        	if(verificador==1){
-    	        		Toast.makeText(getApplicationContext(), "Parabés você liberou uma conquista", Toast.LENGTH_SHORT).show();
-    	        	}
+    	        	boolean verificador;
+    	        	DBAdapter db = new DBAdapter();
+    	        	verificador = db.visit(15);
+
+    	        	//finalizando atividade
+    	        	finish();
+    	        	
+    	        	//passando argumetos para a proxima
     	        	startActivity(new Intent(Indice.this, Build_Options.class)
     	        	.putExtra("foto_predio", R.drawable.foto_reitoria)
-    	        	//.putExtra("predio", R.drawable.planta_fe1)
     	        	.putExtra("nome","REITORIA")
     	        	.putExtra("info_predio", 15)
 					.putExtra("num_pavimentos", 5));
