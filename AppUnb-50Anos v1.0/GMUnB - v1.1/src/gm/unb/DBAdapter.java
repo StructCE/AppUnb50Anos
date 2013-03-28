@@ -190,6 +190,7 @@ public class DBAdapter
 			}
 		}catch (SQLException e){
 			desconnect();
+			return false;
 		}
 	}
 

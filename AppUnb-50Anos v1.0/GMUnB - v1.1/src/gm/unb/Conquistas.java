@@ -11,29 +11,61 @@ import android.widget.Button;
 //Conquistas
 public class Conquistas extends Activity {
 	
+	private int nVisitados;
+	private int nViUlt;
+	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
 		
     	//Mostrar tela
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conq);
-        Button achiviment1 = (Button) findViewById (R.id.achiviment1);
-        achiviment1.setOnClickListener(new View.OnClickListener() {
-	        public void onClick(View conq) {   
-	        	finish();
-	        	startActivity(new Intent(Conquistas.this, RU.class)
-	        	.putExtra("nome","RU")
-	        	.putExtra("info_predio", 16));
-	        }
-       });
-        Button achiviment2 = (Button) findViewById (R.id.achiviment2);
-        achiviment2.setOnClickListener(new View.OnClickListener() {
-	        public void onClick(View conq) {   
-	        	finish();
-	        	startActivity(new Intent(Conquistas.this, Busca_Dep.class));
-	        }
-       });        
+        
+        //estartando o banco de predios visitados
+        DBAdapter db = new DBAdapter();
+        
+        //vendo os predios visitas
+        nVisitados = db.getNumberOfVisits();
+        
+        //vendo os predios visitados desde a ultima conquista
+        Predio[] time;
+        time =  db.getNewConquists();
+        nViUlt = time.length;
+        
+        //mostrando as novas conaquistas em um dialog
+        
+        
+        //mostrando as conquistas
+        switch (nVisitados)
+        {
+        case 15:
+        	//conquista 6
+        case 14:
+        case 13:
+        case 12:
+        	//conquista 5
+        case 11:
+        case 10:
+        case 9:
+        	//conquista 4
+        case 8:
+        case 7:
+        case 6:
+        	//conquista 3
+        case 5:
+        case 4:
+        case 3:
+        	//conquista 2
+        case 2:
+        	
+        case 1:
+        	//ru
+        }
+
+        
+        
 	}
+	
     //Resolve Memory Leak App
     //Override the onKeyDown method  
     @Override  
