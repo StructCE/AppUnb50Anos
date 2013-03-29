@@ -7,10 +7,10 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class Indice extends Activity {
 	ImageView planta;
+	DBAdapter db = new DBAdapter(this);
 	
 	@Override
     public void onCreate(Bundle savedInstanceState)
@@ -39,8 +39,8 @@ public class Indice extends Activity {
 
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(1);
+    	        	verifica(verificador);
     	        	
     	        	//terminado essa atividade
     	        	finish();
@@ -62,8 +62,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(2);
+    	        	verifica(verificador);
     	        	
     	        	//finalizando esta atividade
     	        	finish();
@@ -85,8 +85,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(3);
+    	        	verifica(verificador);
     	        	
     	        	//finalizando esta atividade
     	        	finish();
@@ -108,8 +108,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(10);
+    	        	verifica(verificador);
 
     	        	//finalizando esta atividade
     	        	finish();
@@ -131,8 +131,8 @@ public class Indice extends Activity {
 
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(12);
+    	        	verifica(verificador);
     	        	
     	        	//finalizando esta atividade
     	        	finish();
@@ -154,8 +154,8 @@ public class Indice extends Activity {
         	 
         	        	//Banco de Dados
         	        	boolean verificador;
-        	        	DBAdapter db = new DBAdapter();
         	        	verificador = db.visit(7);
+        	        	verifica(verificador);
 
         	        	//finalizando atividade
         	        	finish();
@@ -180,8 +180,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(6);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -205,8 +205,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(9);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -229,8 +229,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(5);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -253,8 +253,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(4);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -277,8 +277,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(8);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -301,8 +301,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(13);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -325,8 +325,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(14);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -349,9 +349,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(11);
-
+    	        	verifica(verificador);
     	        	//finalizando atividade
     	        	finish();
     	        	
@@ -372,8 +371,8 @@ public class Indice extends Activity {
     	        	
     	        	//Banco de Dados
     	        	boolean verificador;
-    	        	DBAdapter db = new DBAdapter();
     	        	verificador = db.visit(15);
+    	        	verifica(verificador);
 
     	        	//finalizando atividade
     	        	finish();
@@ -402,5 +401,10 @@ public class Indice extends Activity {
         	this.startActivity(new Intent(Indice.this,MainMap.class));  
         }  
         return true;  
+    }
+    
+    void verifica(boolean verificador)
+    {
+    	
     }
 }

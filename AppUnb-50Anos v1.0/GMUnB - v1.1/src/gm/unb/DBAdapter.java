@@ -5,16 +5,14 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 public class DBAdapter 
 {
 	static private String TABELA = "achivments";
 
-	static private Context context = null; 
-	static private DatabaseHelper DBHelper;
-	static private SQLiteDatabase db;
+	private Context context = null; 
+	private DatabaseHelper DBHelper;
+	private SQLiteDatabase db;
 
 	static private String COLUNAID = "id";
 	static private String COLUNANVISITAS = "nvisitas";
@@ -61,7 +59,7 @@ public class DBAdapter
 		return db.insert(TABELA, null, initialValues) > 0;
 	}
 
-	private boolean remove(Predio predio)
+	public boolean remove(Predio predio)
 	{
 		return db.delete(TABELA, COLUNAID + "=" + predio.getId(), null) > 0;
 	}
@@ -104,7 +102,7 @@ public class DBAdapter
 		return novo;
 	}
 
-	private Predio findByNome(Predio predio) throws SQLException 
+	public Predio findByNome(Predio predio) throws SQLException 
 	{
 		Predio novo = new Predio();
 		String[] todos = new String[] {COLUNAID,COLUNANVISITAS, COLUNANOME};
@@ -254,9 +252,11 @@ public class DBAdapter
 	public boolean start()
 	{
 		String[] todos = new String[] {COLUNAID,COLUNANVISITAS, COLUNANOME, COLUNAESTATE};
+		connect();
 		Cursor mCursor = db.query(true, TABELA , todos , COLUNAID + "= 5",	null, null, null, null, null);
 		if(mCursor != null)
 		{
+			desconnect();
 			return true;
 		}
 		else
@@ -276,6 +276,8 @@ public class DBAdapter
 			insert(new Predio(0, 0, 0, "PMU2"));	//13
 			insert(new Predio(0, 0, 0, "BCE"));	//14
 			insert(new Predio(0, 0, 0, "REITORIA"));	//14
+			
+			desconnect();
 			return true;
 		}    	
 	}

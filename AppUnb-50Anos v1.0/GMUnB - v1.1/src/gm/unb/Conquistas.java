@@ -5,8 +5,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
-import android.view.View;
-import android.widget.Button;
 
 //Conquistas
 public class Conquistas extends Activity {
@@ -33,7 +31,7 @@ public class Conquistas extends Activity {
         nViUlt = time.length;
         
         //mostrando as novas conaquistas em um dialog
-        
+        veNovas(nViUlt, nVisitados);
         
         //mostrando as conquistas
         switch (nVisitados)
@@ -81,5 +79,10 @@ public class Conquistas extends Activity {
         	overridePendingTransition(R.anim.move_up, 0);
         }  
         return true;  
+    }
+    
+    void veNovas(int novas, int velhos)
+    {
+    	
     }
 }
