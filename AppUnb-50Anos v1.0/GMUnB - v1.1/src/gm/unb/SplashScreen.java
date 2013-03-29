@@ -14,8 +14,8 @@ public class SplashScreen extends Activity implements Runnable{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         
-        DBAdapter db = new DBAdapter(this);
-        db.start();        
+        //DBAdapter db = new DBAdapter(this);
+        //db.start();        
         //Segurar por 3 segundos
 		Handler h = new Handler();
 		h.postDelayed(this, 2000);
